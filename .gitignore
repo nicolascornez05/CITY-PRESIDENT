@@ -1,42 +1,30 @@
-# Unity generated
+# Godot generated files
+.godot/
+.import/
+export.cfg
+export_presets.cfg
+
+# Android build outputs and signing material
+build/
+*.apk
+*.aab
+*.keystore
+*.jks
+*.p12
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+
+# Legacy Unity generated files (kept ignored during migration)
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
-[Uu]ser[Ss]ettings/
-[Mm]emoryCaptures/
-[Rr]ecordings/
-
-# IDE
-.vs/
-.idea/
-.vscode/
-.gradle/
-*.csproj
-*.sln
-*.suo
-*.user
-*.userprefs
-*.pidb
-*.booproj
-*.svclog
-
-# OS
-.DS_Store
-Thumbs.db
-Desktop.ini
-
-# Secrets and signing material
-*.keystore
-*.jks
-*.p12
-*.mobileprovision
-*.pem
-*.pfx
-.env
-.env.*
-
-# Crash reports
-sysinfo.txt
+UserSettings/
