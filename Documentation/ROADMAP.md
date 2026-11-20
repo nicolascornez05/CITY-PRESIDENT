@@ -1,25 +1,25 @@
-# Feuille de route — CITY PRESIDENT
+# Feuille de route — CITY-PRESIDENT (Godot)
 
-## Phase 0 — Socle technique
-- [x] Créer le scaffold Unity 6.3 LTS avec URP et cible Android.
-- [ ] Ajouter les scènes Menu, Création du pays et Monde.
-- [x] Ajouter une première caméra 3D avec déplacement tactile et zoom (à valider dans l'éditeur).
-- [ ] Ajouter les conventions de code et les tests.
-- [ ] Valider une première compilation APK.
+## Phase 0 — Socle Godot
+- [x] Migrer le projet vers Godot et GDScript.
+- [x] Préparer la scène 3D principale et le rendu GL Compatibility.
+- [x] Ajouter les premiers contrôles tactiles.
+- [ ] Importer le projet dans Godot Android et corriger les erreurs éventuelles.
+- [ ] Exporter et installer la première APK de test.
 
 ## Phase 1 — Prototype jouable
-- [x] Première carte provisoire du pays fictif Novaria et cinq repères de villes.
-- [ ] Régions, quartiers et parcelles.
-- [ ] Première sélection de bâtiments 3D.
-- [x] Ajouter les contrôles de navigation et zoom (tests appareils à faire).
-- [x] Premier tableau de bord économique provisoire.
+- [x] Pays fictif Novaria avec cinq villes provisoires.
+- [x] Première carte 3D générée par code.
+- [x] Tableau de bord économique et commandes de vitesse.
+- [ ] Sélection tactile des villes et panneau détaillé.
+- [ ] Caméra et interface adaptées aux différentes tailles d'écran.
 
 ## Phase 2 — Simulation de base
-- [ ] Horloge et calendrier du jeu.
-- [ ] Budget national et budgets municipaux.
-- [ ] Recettes, dépenses, dette et déficit.
-- [ ] Population agrégée, emploi et logements.
-- [ ] Sauvegarde et chargement locaux.
+- [x] Horloge et calendrier simplifiés.
+- [x] Budget national, dette, PIB, chômage et inflation (première approximation).
+- [ ] Budgets municipaux et comptabilité vérifiable.
+- [ ] Population, emploi, logements et services publics.
+- [ ] Sauvegarde locale et chargement.
 
 ## Phase 3 — Gouvernance
 - [ ] Ministères et nominations.
@@ -31,7 +31,7 @@
 - [ ] Construction et amélioration des bâtiments.
 - [ ] Routes et transports.
 - [ ] Santé, éducation, sécurité et énergie.
-- [ ] Plusieurs villes et régions.
+- [ ] Plusieurs régions et villes détaillées.
 - [ ] Économie locale et échanges entre villes.
 
 ## Phase 5 — Simulation avancée
@@ -46,7 +46,7 @@
 - [ ] Tests sur plusieurs appareils.
 - [ ] Tests de sauvegardes et migrations.
 - [ ] Accessibilité et localisation.
-- [ ] APK signé et procédure de publication.
+- [ ] APK de publication signée.
 
 ## Règle de livraison
-Chaque version de test doit être compilable et accompagnée d'une liste des changements. Ne pas annoncer une fonctionnalité comme terminée tant qu'elle n'a pas été testée.
+Ne pas annoncer une fonctionnalité comme terminée tant qu'elle n'a pas été exécutée et testée dans Godot.
