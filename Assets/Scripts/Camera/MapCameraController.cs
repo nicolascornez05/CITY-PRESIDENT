@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace CityPresident.Camera
+namespace CityPresident.Rendering
 {
     /// <summary>Basic mobile map camera: one-finger pan and two-finger pinch zoom.</summary>
     public sealed class MapCameraController : MonoBehaviour
