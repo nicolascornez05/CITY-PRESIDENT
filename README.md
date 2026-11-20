@@ -17,7 +17,7 @@ Le joueur dirige un pays composé de plusieurs régions et villes. Il gère le b
 - Distribution de test : APK via GitHub Actions Artifacts
 
 ## État du dépôt
-Ce dépôt contient le socle documentaire et la configuration initiale de compilation. Le projet Unity jouable, ses scènes, ses ressources 3D et ses scripts de jeu restent à créer. Aucune compilation APK ne peut aboutir tant que le projet Unity complet n'a pas été ajouté.
+Le dépôt contient maintenant un premier scaffold Unity 6.3 LTS : scène principale, configuration Android de base, carte 3D provisoire de Novaria, caméra tactile, horloge de simulation et tableau de bord économique. Ce prototype reste à importer et à compiler dans Unity ; aucune APK n'a encore été produite ni testée.
 
 ## Structure prévue
 ```
@@ -53,6 +53,9 @@ Ne jamais committer de licence Unity, mot de passe, clé de signature Android ou
 ## Documentation
 - [Architecture technique](Documentation/ARCHITECTURE.md)
 - [Feuille de route](Documentation/ROADMAP.md)
+- [Conception du jeu](Documentation/GAME_DESIGN.md)
+- [Règles économiques](Documentation/ECONOMY_RULES.md)
+- [Installation Unity et premier prototype](Documentation/UNITY_SETUP.md)
 
 ## Licence
 La licence du code et des ressources sera définie avant la première distribution publique. Les ressources tierces conserveront leurs licences respectives.
