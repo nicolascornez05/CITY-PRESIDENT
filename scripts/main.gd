@@ -48,7 +48,7 @@ func _build_world() -> void:
 	camera_3d = Camera3D.new()
 	camera_3d.name = "MapCamera"
 	camera_3d.position = Vector3(0.0, 27.0, 25.0)
-	camera_3d.rotation_degrees = Vector3(-47.0, 0.0, 0.0)
+	camera_3d.rotation_degrees = Vector3(47.0, 0.0, 0.0)
 	camera_3d.projection = Camera3D.PROJECTION_ORTHOGONAL
 	camera_3d.size = 39.0
 	camera_3d.current = true
