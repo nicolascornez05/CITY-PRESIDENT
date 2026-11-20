@@ -124,7 +124,7 @@ namespace CityPresident.Core
             GUI.Box(new Rect(12, buttonY - 8, 280, 50), GUIContent.none);
             if (GUI.Button(new Rect(20, buttonY, 62, 32), "Pause")) clock.SetSpeed(GameSpeed.Paused);
             if (GUI.Button(new Rect(86, buttonY, 62, 32), "x1")) clock.SetSpeed(GameSpeed.Normal);
-            if (GUI.Button(new Rect(152, buttonY, 62, 32), "x5")) clock.SetSpeed(GameSpeed.Fast);
+            if (GUI.Button(new Rect(152, buttonY, 62, 32), "x5")) clock.SetSpeed(GameSpeed.VeryFast);
             if (GUI.Button(new Rect(218, buttonY, 62, 32), "x10")) clock.SetSpeed(GameSpeed.UltraFast);
         }
 
