@@ -103,7 +103,7 @@ namespace CityPresident.Core
             return item;
         }
 
-        private void OnDayPassed(int day, int month, int year)
+        private void OnDayPassed()
         {
             if (economy != null) economy.AdvanceDay();
         }
