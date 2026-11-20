@@ -1,18 +1,18 @@
 # Feuille de route — CITY PRESIDENT
 
 ## Phase 0 — Socle technique
-- [ ] Créer le projet Unity 6 LTS avec URP et cible Android.
+- [x] Créer le scaffold Unity 6.3 LTS avec URP et cible Android.
 - [ ] Ajouter les scènes Menu, Création du pays et Monde.
-- [ ] Configurer les contrôles tactiles et la caméra 3D.
+- [x] Ajouter une première caméra 3D avec déplacement tactile et zoom (à valider dans l'éditeur).
 - [ ] Ajouter les conventions de code et les tests.
 - [ ] Valider une première compilation APK.
 
 ## Phase 1 — Prototype jouable
-- [ ] Carte d'un pays fictif et une ville.
+- [x] Première carte provisoire du pays fictif Novaria et cinq repères de villes.
 - [ ] Régions, quartiers et parcelles.
 - [ ] Première sélection de bâtiments 3D.
-- [ ] Navigation et zoom sur la carte.
-- [ ] Interface de tableau de bord.
+- [x] Ajouter les contrôles de navigation et zoom (tests appareils à faire).
+- [x] Premier tableau de bord économique provisoire.
 
 ## Phase 2 — Simulation de base
 - [ ] Horloge et calendrier du jeu.
